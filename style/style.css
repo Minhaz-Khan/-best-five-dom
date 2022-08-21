@@ -1,0 +1,38 @@
+/* header sectionn  */
+.header-backgroud-color {
+    background-color: rgb(16, 10, 10);
+    height: 600px;
+
+
+}
+
+.first-heading-img img {
+    height: 85%;
+    margin-left: 124px;
+}
+
+.secend-heading-img img {
+    height: 70%;
+}
+
+.head-titel {
+    font-size: 4.875rem;
+}
+
+.cart-img img {
+    height: 15rem;
+}
+
+.selected-player-name {
+    height: 376px;
+}
+
+.players-container {
+    background-color: lightgray;
+    /* background-color:;
+    ; */
+}
+
+.total-balance {
+    color: #FF5E19;
+}
