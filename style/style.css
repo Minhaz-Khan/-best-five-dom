@@ -24,7 +24,7 @@
 }
 
 .selected-player-name {
-    height: 376px;
+    height: 384px;
 }
 
 .players-container {
@@ -35,4 +35,16 @@
 
 .total-balance {
     color: #FF5E19;
+}
+
+.selected-title {
+    border-bottom: 3px solid #FF5E19;
+    margin-left: 66px;
+    margin-right: 66px;
+}
+
+.budget-titel {
+    border-bottom: 3px solid #FF5E19;
+    margin-left: 75px;
+    margin-right: 75px;
 }
