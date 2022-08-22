@@ -1,10 +1,10 @@
 function makeDisable(elementId) {
-    const selectedBtn = document.getElementById(elementId);
+    const selectedButton = document.getElementById(elementId);
     const oiPlayersList = document.getElementsByClassName('playerList');
     if (oiPlayersList.length < 5) {
-        selectedBtn.setAttribute('disabled', true);
-        selectedBtn.classList.add('bg-light')
-        selectedBtn.classList.add('text-dark')
+        selectedButton.setAttribute('disabled', true);
+        selectedButton.classList.add('bg-light')
+        selectedButton.classList.add('text-dark')
     }
     return
 }
@@ -19,10 +19,10 @@ function getInnerTextById(elementId) {
     const li = document.createElement('li');
     li.setAttribute('class', 'fs-5 mb-3 ms-3 playerList');
     li.innerText = getElementText;
-    const oiPlayersList = document.getElementsByClassName('playerList');
-    if (oiPlayersList.length < 5) {
-        const selectedPlayerList = document.getElementById('selected-player');
-        selectedPlayerList.appendChild(li);
+    const selectPlayersList = document.getElementsByClassName('playerList');
+    if (selectPlayersList.length < 5) {
+        const allSelectedPlayerList = document.getElementById('selected-player');
+        allSelectedPlayerList.appendChild(li);
     }
     else {
         alert('Already you selected five player');
