@@ -17,7 +17,7 @@ function getInnerTextById(elementId) {
     const getElementText = getElement.innerText;
 
     const li = document.createElement('li');
-    li.setAttribute('class', 'fs-4 mb-2 ms-3 playerList');
+    li.setAttribute('class', 'fs-5 mb-3 ms-3 playerList');
     li.innerText = getElementText;
     const oiPlayersList = document.getElementsByClassName('playerList');
     if (oiPlayersList.length < 5) {
