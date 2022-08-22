@@ -24,7 +24,11 @@ function getInnerTextById(elementId) {
         const selectedPlayerList = document.getElementById('selected-player');
         selectedPlayerList.appendChild(li);
     }
-    return;
+    else {
+        alert('Already you selected five player');
+        return;
+    }
+
 
 
 

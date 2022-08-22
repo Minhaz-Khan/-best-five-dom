@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 /* header sectionn  */
 .header-backgroud-color {
-    background-color: rgb(16, 10, 10);
+    background-image: linear-gradient(90deg, rgba(33, 34, 36, 1) 0%, rgba(87, 89, 93, 1) 100%);
     height: 600px;
+    width: 100%;
 
 
 }
@@ -17,6 +20,18 @@
 
 .head-titel {
     font-size: 4.875rem;
+    font-family: 'Berkshire Swash', cursive;
+    color: #FF5E19;
+}
+
+.headerTitel-area {
+    margin-right: 312px;
+}
+
+/* player list section  */
+.players-container {
+    background-color: lightgray;
+
 }
 
 .cart-img img {
@@ -27,11 +42,7 @@
     height: 384px;
 }
 
-.players-container {
-    background-color: lightgray;
-    /* background-color:;
-    ; */
-}
+/* club maintain cost */
 
 .total-balance {
     color: #FF5E19;
